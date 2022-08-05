@@ -24,8 +24,6 @@ public class Main {
        double weightDifference = secondWeight - firstWeight;
        System.out.println("Разница между весами бойцов " + weightDifference + " кг");
 
-       // Вопрос: я использовала переменную double и с ней все сработало, но не сработало с float, когда я пробовала. Почему так?
-
        // Задание 3.
 
         int bananasWeight = 80 * 5;
@@ -39,7 +37,6 @@ public class Main {
         float breakfastWeightKilo = 1090 / 1000;
         System.out.println(breakfastWeightKilo);
 
-        // Вопрос: в последнем тут можно int или обязательно float?
 
         // Задание 4.
 
@@ -61,54 +58,54 @@ public class Main {
         int weightLossMedium = weightLossOverall / 2;
         System.out.println(weightLossMedium);
 
-        // Вопрос: в критериях написано, что нужно верно сделать операцию остатка деления, но мне кажется все и так получилось :D Не понимаю, как тут сделать операцию остатка деления
-
         // Задание 5.
 
-        int mashaSalary = 67760;
-        int mashaSalaryNew1 = 67760 / 100;
+        float mashaSalary = 67760f;
+        float mashaSalaryNew1 = 67760f / 100;
         System.out.println(mashaSalaryNew1);
-        int mashaSalaryNew2 = 677 * 10;
+        float mashaSalaryNew2 = 677.6f * 10;
         System.out.println(mashaSalaryNew2);
-        int mashaSalaryNew3 = mashaSalary + mashaSalaryNew2;
+        float mashaSalaryNew3 = mashaSalary + mashaSalaryNew2;
         System.out.println("Маша теперь получает " + mashaSalaryNew3);
-        int mashaAnnualOld = 67760 * 12;
+        float mashaAnnualOld = 67760f * 12;
         System.out.println(mashaAnnualOld);
-        int mashaAnnualNew = 74530 * 12;
+        float mashaAnnualNew = 74536f * 12;
         System.out.println(mashaAnnualNew);
-        int incomeDifferenceM = mashaAnnualNew - mashaAnnualOld;
+        float incomeDifferenceM = mashaAnnualNew - mashaAnnualOld;
         System.out.println("Годовой доход вырос на " + incomeDifferenceM);
 
 
-        int denisSalary = 83690;
-        int denisSalaryNew1 = 83690 / 100;
+        float denisSalary = 83690f;
+        float denisSalaryNew1 = 83690f / 100;
         System.out.println(denisSalaryNew1);
-        int denisSalaryNew2 = 836 * 10;
+        float denisSalaryNew2 = 836.9f * 10;
         System.out.println(denisSalaryNew2);
-        int denisSalaryNew3 = denisSalary + denisSalaryNew2;
+        float denisSalaryNew3 = denisSalary + denisSalaryNew2;
         System.out.println("Денис теперь получает " + denisSalaryNew3);
-        int denisAnnualOld = 83690 * 12;
+        float denisAnnualOld = 83690f * 12;
         System.out.println(denisAnnualOld);
-        int denisAnnualNew = 92050 * 12;
+        float denisAnnualNew = 92059f * 12;
         System.out.println(denisAnnualNew);
-        int incomeDifferenceD = denisAnnualNew - denisAnnualOld;
+        float incomeDifferenceD = denisAnnualNew - denisAnnualOld;
         System.out.println("Годовой доход вырос на " + incomeDifferenceD);
 
-        int chrisSalary = 76230;
-        int chrisSalaryNew1 = 76230 / 100;
+        float chrisSalary = 76230f;
+        float chrisSalaryNew1 = 76230f / 100;
         System.out.println(chrisSalaryNew1);
-        int chrisSalaryNew2 = 762 * 10;
+        float chrisSalaryNew2 = 762.3f * 10;
         System.out.println(chrisSalaryNew2);
-        int chrisSalaryNew3 = chrisSalary + chrisSalaryNew2;
+        float chrisSalaryNew3 = chrisSalary + chrisSalaryNew2;
         System.out.println("Кристина теперь полуучает " + chrisSalaryNew3);
-        int chrisAnnualOld = 76230 * 12;
+        float chrisAnnualOld = 76230f * 12;
         System.out.println(chrisAnnualOld);
-        int chrisAnnualNew = 83850 * 12;
+        float chrisAnnualNew = 838533f * 12;
         System.out.println(chrisAnnualNew);
-        int incomeDifferenceC = chrisAnnualNew - chrisAnnualOld;
+        float incomeDifferenceC = chrisAnnualNew - chrisAnnualOld;
         System.out.println("Годовой доход вырос на " + incomeDifferenceC);
 
-        //
+        //Вроде бы получилось, но вопрос нужно ли писать так, к примеру, "100428.0" или достаточно "100428". Также при замене переменной не стала менять механику решения (сокращать), чтобы не запутаться
+
+
 
 
 
